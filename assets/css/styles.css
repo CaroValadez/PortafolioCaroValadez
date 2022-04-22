@@ -1,0 +1,175 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0rem;
+    margin: .5rem;
+}
+
+
+
+.position{
+color: #FF4F6F;
+position: relative;
+bottom: 37rem;
+left: 11rem;
+font-size: 65px;
+
+}
+
+
+.imagen{
+    position: relative;
+    bottom: 0rem;
+    left: 0rem;
+   
+}
+
+.imagen2{
+    position: relative;
+    bottom: 35rem;
+    left: 70rem;
+    
+}
+
+.text2{
+    position: relative;
+    bottom: 37rem;
+    left: 34rem;
+    font-size: 35px;
+}
+
+main >h1{
+    text-align: center;
+}
+
+h2{
+    color:#FF4F6F ;
+}
+
+nav{
+    display: flex;
+    background-color: #fbeaf6;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 20px #ff03a71f;
+    
+
+}
+
+nav > ul > li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 1rem;
+
+    
+}
+
+nav > ul > li > a{
+    color: #090909;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > ul > li > a:hover{
+    border-bottom: 2px solid #ae1fe7;
+
+}
+
+section > p {
+    font-size: 22px;
+}
+
+.mi-inf > p{
+    padding-left: 30rem;
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+    min-width: 10rem;
+    min-height:10rem;
+    border-radius: 5rem;
+    box-shadow:5px 5px 20px #ff03a71f;
+   background-color: #f812981c;
+
+}
+.mi-inf > h2{
+    text-align: center;
+}
+    
+.imagen3{
+    position: relative;
+    bottom: 14rem;
+    left: 10rem;
+
+
+    
+}
+
+.mi-inf2 > h2{
+    text-align: center;
+}
+
+footer{
+    background-color: #fbeaf6;
+   
+}
+footer > h2{
+    color: #FF4F6F;
+}
+
+.mi-inf3 > h2{
+    text-align: center;
+}
+
+.mi-inf3 >p{
+    text-align: center;
+}
+
+.mi-inf3 > div{
+    text-align: center;
+}
+
+
+.contenedor-habilidades{
+display: flex;
+align-items: center;
+flex-direction: column;
+
+
+}
+
+.ayuda{
+   display: flex; 
+ flex-direction: row;
+   align-items: center;
+}
+
+.caja{
+    flex-direction: column;
+    display: flex;
+align-items: center;
+    width: 80px;
+    height: 50px;
+    background-color: #FF4F6F;
+   
+}
+
+.caja h4{
+    color:aqua;
+    text-align:center
+}
+
+.caja div{
+    position: relative;
+    top: 0;
+background-color: #ae1fe7;
+min-width: 70%;
+height: 5px;
+font-size: 1px;
+margin: 0;
+left: -1%;
+
+}
